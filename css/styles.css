@@ -1,0 +1,162 @@
+#title{
+  color:#fff;
+  text-align:left;
+}
+body{
+font-family:"Montserrat";
+text-align:center;
+}
+
+.container-fluid{
+   padding: 2% 10%;
+}
+
+#title,#testimonials,#cta{
+  background-color:red;
+}
+
+h1 {
+  font-family: "Black", Montserrat;
+  font-weight: 900;
+  font-size:3.5rem;
+}
+
+h2{
+   font-family: "Bold", Montserrat;
+   font-weight: 700;
+   font-size:2.5rem;
+}
+h3{
+font-family: "Bold", Montserrat;
+  font-weight: 700;
+  font-size:1.5rem;
+}
+/*navbar-section*/
+.navbar{
+   padding= 0 0 4.5rem;
+
+}
+
+
+.navbar-brand{
+font-family: "ubuntu";
+font-size:2.5rem;
+font-weight: "Bold";
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+   font-size:1.2rem;
+   font-family:"MMontserrat-Light"
+}
+
+/*Download buttons */
+.download-button{
+   margin : 5% 3% 5% 0;
+   }
+
+
+/*Title image*/
+.title-image{
+  margin-left:200px;
+   width:15%;
+   height:60%;
+   transform: rotate(25deg);
+   position:absolute;
+   z-index:0
+}
+
+#features{
+  position:relative;
+  background-color:white;
+  z-index:1
+}
+
+
+/*pan section*/
+
+.pan{
+  display: grid;
+  justify-items: center;
+  text-align:center;
+  padding: 0.5rem 0;
+}
+
+.pan-color{
+color:red;
+}
+
+.pan-color:hover{
+color:pink;
+}
+
+/*testimonials*/
+#testimonials{
+   padding:7%;
+}
+
+.testimonial-logo{
+   height : 60px;
+   width: 60px;
+   border-radius:75%;
+   margin:20px;
+}
+.carousel-inner{
+     padding: 2% 10%;
+}
+
+/*press section*/
+#press{
+  padding: 2% 10%;
+  border-bottom:10px solid red;
+}
+.row{
+  padding:10px
+}
+.press-img{
+  margin: 10px;
+  width: 150px
+}
+
+/*buttons*/
+.main-btn{
+  border:1px solid blue;
+}
+
+/*pricing-section*/
+#pricing{
+  padding:100px;
+
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.card{
+text-align:center;
+}
+
+/*cta section*/
+#cta{
+   padding: 2% 10%;
+}
+
+.cta_heading{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 700;
+  font-size:1.5rem;
+  line-height: 1.5;
+}
+
+/*footer*/
+#footer{
+  padding: 20px;
+}
+.footer-icons{
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
